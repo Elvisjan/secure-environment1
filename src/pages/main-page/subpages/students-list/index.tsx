@@ -45,15 +45,12 @@ export const StudentsList: React.FC = () => {
   ];
 
   const rows = [
-    { id: 1, lastName: 'Snow', firstName: 'Jon', age: 35 },
-    { id: 2, lastName: 'Lannister', firstName: 'Cersei', age: 42 },
-    { id: 3, lastName: 'Lannister', firstName: 'Jaime', age: 45 },
-    { id: 4, lastName: 'Stark', firstName: 'Arya', age: 16 },
-    { id: 5, lastName: 'Targaryen', firstName: 'Daenerys', age: null },
-    { id: 6, lastName: 'Melisandre', firstName: null, age: 150 },
-    { id: 7, lastName: 'Clifford', firstName: 'Ferrara', age: 44 },
-    { id: 8, lastName: 'Frances', firstName: 'Rossini', age: 36 },
-    { id: 9, lastName: 'Roxie', firstName: 'Harvey', age: 65 },
+    { id: 1648, fio: 'Валеев Рамзан Тагирович', firstName: 'Jon', age: 35,class:'5б',phoneNumber:"+7-111-1111",classroomTeacher:'Ненашев Сергей петрович' },
+    { id: 1847, fio: 'Тагиров Альберт Валерьевич', firstName: 'Cersei', age: 42,class:'5б',phoneNumber:"+7-111-1111",classroomTeacher:'Ненашев Сергей петрович' },
+    { id: 2108, fio: 'Мишкин Владимир Сергеевич', firstName: 'Jaime', age: 45,class:'5б',phoneNumber:"+7-111-1111",classroomTeacher:'Ненашев Сергей петрович' },
+    { id: 1542, fio: 'Старков Андрей Дамирович', firstName: 'Arya', age: 16,class:'5б',phoneNumber:"+7-111-1111",classroomTeacher:'Ненашев Сергей петрович' },
+    { id: 2103, fio: 'Микаэлян Даниил Арутюнович', firstName: 'Daenerys', age: null,class:'5б',phoneNumber:"+7-111-1111",classroomTeacher:'Ненашев Сергей петрович' },
+    { id: 2513, fio: 'Зеркалин Сергей Петрович', firstName: null, age: 150,class:'5б',phoneNumber:"+7-111-1111",classroomTeacher:'Ненашев Сергей петрович' },
   ];
   return (
     <Wrapper>
